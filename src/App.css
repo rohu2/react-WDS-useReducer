@@ -1,0 +1,43 @@
+body > #root > div {
+
+height: 100vh;
+}
+
+.container{
+
+display: flex;
+
+align-items: center; 
+flex-direction: column;
+
+font-family: sans-serif;
+}
+
+button{
+
+width: 60px;
+height: 60px;  
+
+font-size: 10px;
+
+border-radius: 25px;
+outline: none;
+}
+
+button:active{
+
+background-color: rgb(255, 50, 50);
+}
+
+span{
+
+display: inline-block;
+width: 50px;
+height: 50px;
+
+font-size: 25px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
